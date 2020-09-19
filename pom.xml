@@ -10,12 +10,12 @@
 			<artifactId>vlcj</artifactId>
 			<version>4.6.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/uk.co.caprica/vlcj-natives -->
+		<!-- https://mvnrepository.com/artifact/uk.co.caprica/vlcj-natives 
 		<dependency>
 			<groupId>uk.co.caprica</groupId>
 			<artifactId>vlcj-natives</artifactId>
 			<version>4.1.0</version>
-		</dependency>
+		</dependency> -->
 
 	</dependencies>
 </project>
