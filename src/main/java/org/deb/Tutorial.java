@@ -3,7 +3,11 @@
  */
 package org.deb;
 
-import uk.co.caprica.vlcj.factory.MediaPlayerFactory;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JFrame;
+
 import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
 
 /**
@@ -11,16 +15,45 @@ import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
  *
  */
 public class Tutorial {
+
+	private final JFrame frame;
+
+	private final EmbeddedMediaPlayerComponent mediaPlayerComponent;
+
 	/**
-	 * First argument is the path to libvlc.dll
+	 * 
 	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		MediaPlayerFactory factory = new MediaPlayerFactory();
-		EmbeddedMediaPlayerComponent mediaPlayerComponent = new EmbeddedMediaPlayerComponent();
-		System.out.println("DONE");
-		
+		if (args.length > 0) {
+			Tutorial thisApp = new Tutorial();
+			thisApp.mediaPlayerComponent.mediaPlayer().media().play(args[0]);
+		} else {
+            System.err.println("Usage: java Tutorial <media file name with path>");     
+		}
+
+	}
+
+	public Tutorial() {
+
+		frame = new JFrame("My First Media Player");
+		frame.setBounds(100, 100, 600, 400);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		frame.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				mediaPlayerComponent.release();
+				System.exit(0);
+			}
+		});
+
+		mediaPlayerComponent = new EmbeddedMediaPlayerComponent();
+		frame.setContentPane(mediaPlayerComponent);
+
+		frame.setVisible(true);
+
 	}
 
 }
