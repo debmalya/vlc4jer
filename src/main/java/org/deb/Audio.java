@@ -21,7 +21,7 @@ public class Audio {
 		
 		Audio audio = new Audio();
 		if (args.length > 0) {
-			audio.mediaPlayerComponent.mediaPlayer().media().play(args[0]);
+			audio.start(args[0]);
 		} else {
 			System.err.println("Nothing to play");
 		}
@@ -32,6 +32,10 @@ public class Audio {
 	private Audio() {
         mediaPlayerComponent = new AudioPlayerComponent();
 //        mediaPlayerComponent.mediaPlayer().events().addMediaPlayerEventListener(new CustomeEmbeddedPlayer());
+    }
+	
+	private void start(String mrl) {
+        mediaPlayerComponent.mediaPlayer().media().play(mrl);
     }
 
 }
