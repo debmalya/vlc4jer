@@ -97,3 +97,159 @@
 [h264 @ 000000001cca13a0] no frame!
 [000000001e86c980] gnutls tls client error: Error in the push function.
 [00000000236dabc0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+---------------------------------------------------------------------------------------
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1243 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1338 ms)
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1156 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1154 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1152 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1387 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1247 ms)
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1231 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1269 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1312 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1415 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1269 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1272 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2418 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2443 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2524 ms)
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2391 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2482 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2420 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2440 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2641 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2573 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2980 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2598 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 2759 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3530 ms)
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3392 ms)
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3243 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3220 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[00000000186fdbb0] main decoder error: Timestamp conversion failed for 465665666: no reference clock
+[00000000186fdbb0] main decoder error: Could not convert timestamp 0 for FFmpeg
+[00000000186fdf40] main decoder error: Timestamp conversion failed for 465665666: no reference clock
+[00000000186fdf40] main decoder error: Could not convert timestamp 0 for FFmpeg
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3591 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3392 ms)
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3430 ms)
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3397 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186fdbb0] main decoder error: Timestamp conversion failed for 501668335: no reference clock
+[00000000186fdbb0] main decoder error: Could not convert timestamp 0 for FFmpeg
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3413 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3406 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3476 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3489 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3639 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3460 ms)
+[00000000186fdf40] main decoder error: Timestamp conversion failed for 536903570: no reference clock
+[00000000186fdf40] main decoder error: Could not convert timestamp 0 for FFmpeg
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3486 ms)
+[00000000186fd820] main decoder error: Timestamp conversion failed for 536936937: no reference clock
+[00000000186fd820] main decoder error: Could not convert timestamp 0 for FFmpeg
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3501 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3478 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[00000000186fdbb0] main decoder error: Timestamp conversion failed for 549049049: no reference clock
+[00000000186fdbb0] main decoder error: Could not convert timestamp 0 for FFmpeg
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3506 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3645 ms)
+[00000000186fd820] main decoder error: Timestamp conversion failed for 549082416: no reference clock
+[00000000186fd820] main decoder error: Could not convert timestamp 0 for FFmpeg
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3533 ms)
+[00000000186fdf40] main decoder error: Timestamp conversion failed for 587087087: no reference clock
+[00000000186fdf40] main decoder error: Could not convert timestamp 0 for FFmpeg
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3516 ms)
+[mpeg4 @ 0000000018741fe0] [mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3540 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3690 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3694 ms)
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3574 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3544 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3518 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3899 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3760 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3576 ms)
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3920 ms)
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[0000000018635d50] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 4011 ms)
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3654 ms)
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3830 ms)
+[0000000018638d20] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 4013 ms)
+[mpeg4 @ 000000001873ab40] warning: first frame is no keyframe
+[mpeg4 @ 0000000018741fe0] warning: first frame is no keyframe
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[00000000186353c0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3697 ms)
+[0000000018602140] main decoder error: Timestamp conversion failed for 1517917917: no reference clock
+[0000000018602140] main decoder error: Could not convert timestamp 0 for FFmpeg
+[mpeg4 @ 000000001854bd20] warning: first frame is no keyframe
+[00000000186396b0] main input error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 4043 ms)
+[mpeg4 @ 0000000018742420] warning: first frame is no keyframe
+[000000001d5406a0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[000000001d540be0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[000000001d540940] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[000000001d53fec0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+---------------------------------------------------------------------------------------------

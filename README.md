@@ -14,5 +14,8 @@ How to use vlc4j
 ## Motivation
 * [Masaka Kids Africana](https://www.youtube.com/watch?v=IkOlwbjUofI)
 * [I need a better tomorrow](https://www.youtube.com/watch?v=jlwe_9YbY94)
+* [VLCJ examples](https://github.com/caprica/vlcj-examples)
+
+
 
 
