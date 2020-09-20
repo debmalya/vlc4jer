@@ -13,6 +13,9 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import org.deb.listeners.CustomMediaEventListener;
+
+import uk.co.caprica.vlcj.media.MediaEventListener;
 import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
 
 /**
@@ -72,15 +75,18 @@ public class Tutorial {
 		pauseButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer().controls().pause());
 		
 		rewindButton = new JButton("Rewind");
-		controlsPane.add(rewindButton);
-		rewindButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer().controls().skipPosition(10.00f));
+//		controlsPane.add(rewindButton);
+//		rewindButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer().controls().skipPosition(1000.00f));
 		
 	
 		skipButton = new JButton("Skip");
-		controlsPane.add(skipButton);
-		skipButton.addActionListener(e->mediaPlayerComponent.mediaPlayer().controls().skipPosition(-10.00f));
+//		controlsPane.add(skipButton);
+//		skipButton.addActionListener(e->mediaPlayerComponent.mediaPlayer().controls().skipPosition(-1000.00f));
 		contentPane.add(controlsPane, BorderLayout.SOUTH);
 
+		MediaEventListener listener = new CustomMediaEventListener();
+		mediaPlayerComponent.mediaPlayer().events().addMediaEventListener(listener);
+			    
 		
 		contentPane.add(mediaPlayerComponent, BorderLayout.CENTER);
 		frame.setContentPane(contentPane);
