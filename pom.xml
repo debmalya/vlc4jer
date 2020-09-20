@@ -33,7 +33,7 @@
 						<configuration>
 							<mainClass>org.deb.Tutorial</mainClass>
 							<arguments>
-								<argument>src\test\resources\aaj-tomare-dekhte-elem.mp3</argument>
+								<argument>./src/test/resources/aaj-tomare-dekhte-elem.mp3</argument>
 							</arguments>
 						</configuration>
 					</execution>

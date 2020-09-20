@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -41,7 +42,7 @@ public class Tutorial {
 	 */
 	public static void main(String[] args) {
 		if (args.length > 0) {
-			Tutorial thisApp = new Tutorial();
+			Tutorial thisApp = new Tutorial(args[0]);
 			thisApp.mediaPlayerComponent.mediaPlayer().media().play(args[0]);
 		} else {
 			System.err
@@ -50,9 +51,18 @@ public class Tutorial {
 
 	}
 
-	public Tutorial() {
+	public Tutorial(String fileName) {
 		mediaPlayerComponent = new EmbeddedMediaPlayerComponent();
-		frame = new JFrame("Media Player Tutorial");
+		String title = "Media Player Tutorial";
+		if (null != fileName) {
+			int fileNameStartingPosition = fileName.lastIndexOf(File.separator);
+			if (fileNameStartingPosition > -1) {
+				title = fileName.substring(fileNameStartingPosition + 1);
+			}else{
+				title = fileName;
+			}
+		}
+		frame = new JFrame(title);
 		frame.setBounds(100, 100, 600, 400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -66,28 +76,28 @@ public class Tutorial {
 
 		JPanel contentPane = new JPanel();
 		contentPane.setLayout(new BorderLayout());
-		
-		
+
 		JPanel controlsPane = new JPanel();
-		
+
 		pauseButton = new JButton("Pause");
 		controlsPane.add(pauseButton);
-		pauseButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer().controls().pause());
-		
+		pauseButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer()
+				.controls().pause());
+
 		rewindButton = new JButton("Rewind");
-//		controlsPane.add(rewindButton);
-//		rewindButton.addActionListener(e -> mediaPlayerComponent.mediaPlayer().controls().skipPosition(1000.00f));
-		
-	
+		// controlsPane.add(rewindButton);
+		// rewindButton.addActionListener(e ->
+		// mediaPlayerComponent.mediaPlayer().controls().skipPosition(1000.00f));
+
 		skipButton = new JButton("Skip");
-//		controlsPane.add(skipButton);
-//		skipButton.addActionListener(e->mediaPlayerComponent.mediaPlayer().controls().skipPosition(-1000.00f));
+		// controlsPane.add(skipButton);
+		// skipButton.addActionListener(e->mediaPlayerComponent.mediaPlayer().controls().skipPosition(-1000.00f));
 		contentPane.add(controlsPane, BorderLayout.SOUTH);
 
 		MediaEventListener listener = new CustomMediaEventListener();
-		mediaPlayerComponent.mediaPlayer().events().addMediaEventListener(listener);
-			    
-		
+		mediaPlayerComponent.mediaPlayer().events()
+				.addMediaEventListener(listener);
+
 		contentPane.add(mediaPlayerComponent, BorderLayout.CENTER);
 		frame.setContentPane(contentPane);
 
