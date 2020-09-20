@@ -1,0 +1,99 @@
+1. While trying to run 4 media file at a time.
+[0000000017ca0840] http stream error: local stream 1 error: Cancellation (0x8)
+[000000001cb03da0] http stream error: local stream 1 error: Cancellation (0x8)
+[000000001cb025a0] http stream error: local stream 1 error: Cancellation (0x8)
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001e86ca70] main tls client error: connection error: Interrupted function call
+[000000001cb022a0] access stream error: HTTP connection failure
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001e86c980] main tls client error: connection error: Interrupted function call
+[000000001cb022a0] access stream error: HTTP connection failure
+[000000001e86c7a0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86ea50] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86d2e0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86c4d0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86c7a0] d3d11va generic error: CreateVideoService failed
+[000000001e86ea50] d3d11va generic error: CreateVideoService failed
+[000000001e86d2e0] d3d11va generic error: CreateVideoService failed
+[000000001e86c4d0] d3d11va generic error: CreateVideoService failed
+[000000001e86c7a0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86c7a0] d3d11va generic error: CreateVideoService failed
+[000000001e86ea50] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86ea50] d3d11va generic error: CreateVideoService failed
+[000000001e86c4d0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86c4d0] d3d11va generic error: CreateVideoService failed
+[000000001e86d2e0] d3d11va generic error: Could not Query ID3D11VideoDevice Interface. (hr=0x80004002)
+[000000001e86d2e0] d3d11va generic error: CreateVideoService failed
+[00000000236da680] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236dae60] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236da3e0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236da920] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[000000001e86e3c0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86eff0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86f0e0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86e4b0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86e3c0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86eff0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86f0e0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86e4b0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86e3c0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86e3c0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86f0e0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86f0e0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86e4b0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86e4b0] dxva2 generic error: FindVideoServiceConversion failed
+[000000001e86eff0] dxva2 generic error: IDirectXVideoDecoderService_GetDecoderDeviceGuids failed
+[000000001e86eff0] dxva2 generic error: FindVideoServiceConversion failed
+[00000000236db100] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236da3e0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236d9420] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236da680] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[00000000236da680] main vout display error: Failed to set fullscreen
+[00000000236d96c0] main vout display error: Failed to set fullscreen
+[00000000236dabc0] main vout display error: Failed to set fullscreen
+[h264 @ 0000000017d454c0] get_buffer() failed
+[h264 @ 0000000017d454c0] thread_get_buffer() failed
+[h264 @ 0000000017d454c0] decode_slice_header error
+[h264 @ 0000000017d454c0] no frame!
+[00000000236dae60] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[h264 @ 0000000017d4a6c0] get_buffer() failed
+[h264 @ 0000000017d4a6c0] thread_get_buffer() failed
+[h264 @ 0000000017d4a6c0] decode_slice_header error
+[h264 @ 0000000017d4a6c0] no frame!
+[h264 @ 0000000017d45d60] get_buffer() failed
+[h264 @ 0000000017d45d60] thread_get_buffer() failed
+[h264 @ 0000000017d45d60] decode_slice_header error
+[h264 @ 0000000017d45d60] no frame!
+[000000001e86f1d0] gnutls tls client error: Error in the push function.
+[00000000236da680] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[h264 @ 000000001e418f60] get_buffer() failed
+[h264 @ 000000001e418f60] thread_get_buffer() failed
+[h264 @ 000000001e418f60] decode_slice_header error
+[h264 @ 000000001e418f60] no frame!
+[h264 @ 000000001e418b00] get_buffer() failed
+[h264 @ 000000001e418b00] thread_get_buffer() failed
+[h264 @ 000000001e418b00] decode_slice_header error
+[h264 @ 000000001e418b00] no frame!
+[00000000236d96c0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
+[h264 @ 000000001cca20a0] get_buffer() failed
+[h264 @ 000000001cca20a0] thread_get_buffer() failed
+[h264 @ 000000001cca20a0] decode_slice_header error
+[h264 @ 000000001cca20a0] no frame!
+[h264 @ 000000001cca13a0] get_buffer() failed
+[h264 @ 000000001cca13a0] thread_get_buffer() failed
+[h264 @ 000000001cca13a0] decode_slice_header error
+[h264 @ 000000001cca13a0] no frame!
+[000000001e86c980] gnutls tls client error: Error in the push function.
+[00000000236dabc0] direct3d11 vout display error: SetThumbNailClip failed: 0x800706f4
