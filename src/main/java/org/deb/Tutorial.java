@@ -15,6 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import org.deb.listeners.CustomMediaEventListener;
+import org.deb.util.CommonUtil;
 
 import uk.co.caprica.vlcj.media.MediaEventListener;
 import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
@@ -53,16 +54,7 @@ public class Tutorial {
 
 	public Tutorial(String fileName) {
 		mediaPlayerComponent = new EmbeddedMediaPlayerComponent();
-		String title = "Media Player Tutorial";
-		if (null != fileName) {
-			int fileNameStartingPosition = fileName.lastIndexOf(File.separator);
-			if (fileNameStartingPosition > -1) {
-				title = fileName.substring(fileNameStartingPosition + 1);
-			}else{
-				title = fileName;
-			}
-		}
-		frame = new JFrame(title);
+		frame = new JFrame(CommonUtil.getTitle(fileName));
 		frame.setBounds(100, 100, 600, 400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
