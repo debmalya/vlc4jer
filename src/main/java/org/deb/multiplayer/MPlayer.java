@@ -73,7 +73,7 @@ public class MPlayer {
 		
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-		mainFrame = new Frame("VLCJ Test Multi Player");
+		mainFrame = new Frame("Multi Player");
 		mainFrame.setLayout(new BorderLayout());
 		mainFrame.setBackground(Color.black);
 		mainFrame.add(contentPane, BorderLayout.CENTER);
