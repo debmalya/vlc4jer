@@ -10,9 +10,9 @@ import java.io.File;
  *
  */
 public class CommonUtil {
-	
-	private CommonUtil(){
-		
+
+	private CommonUtil() {
+
 	}
 
 	public static String getTitle(String fileName) {
@@ -37,6 +37,16 @@ public class CommonUtil {
 			return file.getName();
 		}
 		return "";
+	}
+
+	public static Integer a2i(String str) {
+		Integer n = null;
+		try {
+			n = Integer.parseInt(str);
+		} catch (NumberFormatException nfe) {
+            System.err.println(String.format("'%s' is not a number. Please provide a numeric value.",str));
+		}
+		return n;
 	}
 
 }

@@ -5,8 +5,10 @@ package org.deb.multiplayer;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Frame;
 import java.awt.GridLayout;
+import java.awt.Toolkit;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
@@ -31,7 +33,7 @@ import uk.co.caprica.vlcj.player.embedded.fullscreen.exclusivemode.ExclusiveMode
  */
 public class MPlayer {
 
-	private final String[] medias = {
+	private static String[] medias = {
 			"https://www.youtube.com/watch?v=4-hQFOaJyxQ",
 			"https://www.youtube.com/watch?v=IkOlwbjUofI",
 			"https://www.youtube.com/watch?v=jlwe_9YbY94",
@@ -39,8 +41,8 @@ public class MPlayer {
 	// Your MRL's go here
 	};
 
-	private final int rows = 1;
-	private final int cols = 4;
+	private final int rows = 4;
+	private final int cols = 1;
 
 	private final Frame mainFrame;
 
@@ -51,6 +53,8 @@ public class MPlayer {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		medias = args;
 		SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -66,12 +70,14 @@ public class MPlayer {
 		contentPane.setBackground(Color.black);
 		contentPane.setLayout(new GridLayout(rows, cols, 16, 16));
 		contentPane.setBorder(new EmptyBorder(16, 16, 16, 16));
+		
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
 		mainFrame = new Frame("VLCJ Test Multi Player");
 		mainFrame.setLayout(new BorderLayout());
 		mainFrame.setBackground(Color.black);
 		mainFrame.add(contentPane, BorderLayout.CENTER);
-		mainFrame.setBounds(100, 100, 1600, 300);
+		mainFrame.setBounds(0, 0, screenSize.width/4, screenSize.height);
 
 		mainFrame.addWindowListener(new WindowAdapter() {
 			@Override

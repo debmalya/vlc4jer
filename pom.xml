@@ -31,6 +31,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.1.1</version>
 				<executions>
+				    <!-- 
 					<execution>
 						<phase>test</phase>
 						<goals>
@@ -41,6 +42,22 @@
 							<arguments>
 							    <argument>./src/test/resources/aaj-tomare-dekhte-elem.mp3</argument>
 							    <argument>./src/test/resources/AajRabriKheteElem.ogg</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					 -->
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>org.deb.multiplayer.MPlayer</mainClass>
+							<arguments>
+							    <argument>https://www.youtube.com/watch?v=4-hQFOaJyxQ</argument>
+							    <argument>https://www.youtube.com/watch?v=IkOlwbjUofI</argument>
+							    <argument>https://www.youtube.com/watch?v=jlwe_9YbY94</argument>
+							    <argument>https://www.youtube.com/watch?v=dc5xG1agUrI</argument>
 							</arguments>
 						</configuration>
 					</execution>
