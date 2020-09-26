@@ -30,7 +30,7 @@ How to use vlc4j
 In the argument part you can put your own video / rtsp streaming, and runTest.bat or runTest.sh
 
 *![Screen shot](doc/Multiplayer.PNG)
-It uses java.awt and javax.swing component. MacOS does not support. It tested with windows 10 and worked.
+* It uses java.awt and javax.swing component. MacOS does not support. It tested with windows 10 and worked.
 
 ## Errors
 * Exception in thread "main" java.lang.UnsatisfiedLinkError: Unable to load library 'libvlc': As I wrongly installed 32 bit vlc, after uninstalling that version and installing 64 bit vlc solved the issue.
